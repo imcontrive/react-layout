@@ -1,0 +1,101 @@
+{
+  "products": [
+    {
+      "name": "Oninon/Vulligadda/Ullipaya",
+      "category": "Fresho",
+      "discountRate": "20%",
+      "isVeg": true,
+      "imageUrl": "http://www.allwhitebackground.com/images/2/2658.jpg",
+      "pricePerKg": "30",
+      "currencyFormat": "RS",
+      "isFreeShipping": true,
+      "id": "01",
+      "delivery": [
+        {
+          "isStandard": "Tommorow Evening",
+          "isExpress": "Out of stock"
+        }
+      ],
+      "quantity": ["500", "1000", "250"],
+      "quantityFormat": "gr"
+    },
+    {
+      "name": "Tomato - Local",
+      "category": "Fresho",
+      "discountRate": "20%",
+      "isVeg": true,
+      "imageUrl": "http://www.maannews.com/Photos/504813C.jpg",
+      "pricePerKg": "60",
+      "currencyFormat": "RS",
+      "isFreeShipping": true,
+      "id": "02",
+      "delivery": [
+        {
+          "isStandard": "Tommorow Evening",
+          "isExpress": "Out of stock"
+        }
+      ],
+      "quantity": ["500", "1000", "250"],
+      "quantityFormat": "gr"
+    },
+    {
+      "name": "Potato/Alugadda/Bangala Dumpa/aloo",
+      "category": "Fresho",
+      "discountRate": "20%",
+      "isVeg": true,
+      "imageUrl": "https://www.irishcentral.com/uploads/article/132980/cropped_raw-potatoes-GettyImages-932521144.jpg?t=1559072171",
+      "pricePerKg": "24",
+      "currencyFormat": "RS",
+      "isFreeShipping": true,
+      "id": "03",
+      "delivery": [
+        {
+          "isStandard": "Tommorow Evening",
+          "isExpress": "Out of stock"
+        }
+      ],
+      "quantity": ["500", "1000", "250"],
+      "quantityFormat": "gr"
+    },
+    {
+      "name": "Ladies Finger/Bendakaya",
+      "category": "Fresho",
+      "discountRate": "20%",
+      "isVeg": true,
+      "isLocal": true,
+      "imageUrl": "http://www.allwhitebackground.com/images/2/2658.jpg",
+      "pricePerKg": "30",
+      "currencyFormat": "RS",
+      "isFreeShipping": true,
+      "id": "01",
+      "delivery": [
+        {
+          "isStandard": "Tommorow Evening",
+          "isExpress": "Out of stock"
+        }
+      ],
+      "quantity": ["500", "1000", "250"],
+      "quantityFormat": "gr"
+    },
+    {
+      "name": "Oninon/Vulligadda/Ullipaya",
+      "category": "Fresho",
+      "discountRate": "20%",
+      "isVeg": true,
+      "isLocal": true,
+      "imageUrl": "https://www.bigbasket.com/media/uploads/p/l/40023470_3-fresho-ladies-finger-organically-grown.jpg",
+      "pricePerKg": "25",
+      "currencyFormat": "RS",
+      "isFreeShipping": true,
+      "id": "04",
+      "delivery": [
+        {
+          "isStandard": "Tommorow Evening",
+          "isExpress": "Out of stock"
+        }
+      ],
+      "quantity": ["500", "1000", "250"],
+      "quantityFormat": "gr"
+    }
+  ]
+}
