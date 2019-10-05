@@ -102,18 +102,20 @@ class Product extends Component {
         </div>
 
         <div className="list">
-          <select name="quantity" onChange={this.handleChange}>
-            {quantity
-              ? quantity.map((list, index) => {
-                  return (
-                    <option key={index} value={list}>
-                      {list} {quantityFormat} - {currencyFormat}{" "}
-                      {discountedPrice}
-                    </option>
-                  );
-                })
-              : ""}
-          </select>
+          <span className="custom-dropdown common">
+            <select name="quantity" onChange={this.handleChange}>
+              {quantity
+                ? quantity.map((list, index) => {
+                    return (
+                      <option key={index} value={list}>
+                        {list} {quantityFormat} - {currencyFormat}{" "}
+                        {discountedPrice}
+                      </option>
+                    );
+                  })
+                : ""}
+            </select>
+          </span>
         </div>
         <section className="endContainer">
           <div className="price">
