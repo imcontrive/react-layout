@@ -161,12 +161,193 @@ body {
   font-size: 1.3rem;
 }
 
+.common {
+  margin: 5px 0;
+}
+
 .isWrapper {
-  max-width: 950px;
+  max-width: 1200px;
   width: 100%;
   margin: 0 auto;
   position: absolute;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
+  /* padding: 10px; */
+  /* border-top: 0.5px solid lightgray;
+  border-bottom: 0.5px solid lightgray;
+  border-left: 0.5px solid lightgray; */
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 300px);
+  /* grid-template-columns: 280px 280px 280px 280px; */
+  /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+}
+
+.productContainer {
+  padding: 10px;
+  border-right: 0.5px solid lightgray;
+  margin-right: 8px;
+}
+.productContainer:hover {
+  cursor: pointer;
+  box-shadow: 0 2px 2px rgba(204, 204, 204, 0.75),
+    0 -2px 2px rgba(204, 204, 204, 0.75);
+}
+
+.discount {
+  display: flex;
+  justify-content: flex-end;
+  align-items: baseline;
+  color: #dd4a4d;
+  padding: 5px;
+  box-shadow: 0 2px 2px rgba(204, 204, 204, 0.75),
+    0 -2px 2px rgba(204, 204, 204, 0.75);
+}
+
+.discount:first-child {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.fa-certificate {
+  color: #ce4648;
+  margin-left: 10px;
+}
+
+.imageContainer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.imageContainer img {
+  width: 150px;
+  height: 150px;
+}
+
+.prodCat {
+  /* margin: 5px 0 3px; */
+  color: #999;
+  font: 13px ProximaNovaA-Regular;
+}
+
+.nameContainer {
+  margin-bottom: 20px;
+}
+
+.prodName {
+  font-size: 14px;
+  color: black;
+}
+
+/* list */
+
+.list select {
+  width: 100%;
+}
+
+.endContainer {
+  background-color: rgb(235, 235, 235);
+  padding: 10px;
+}
+
+.price {
+  display: flex;
+}
+
+.price:first-child {
+  font-size: 14px;
+}
+
+.striked {
+  text-decoration: line-through;
+  font-size: 12px;
+  margin-right: 10px;
+  text-transform: capitalize;
+}
+
+.delivery div {
+  display: flex;
+  align-items: baseline;
+  margin: 9px 0;
+}
+
+.delivery p {
+  font-size: 12px;
+}
+
+.delivery .fas {
+  margin-right: 10px;
+  color: rgb(138, 138, 138);
+  font-size: 22px;
+}
+
+.addToCart {
+  margin-top: 20px;
+  display: flex;
+}
+
+.quantityBox {
+  width: 100px;
+  display: flex;
+  border: 1px solid lightgray;
+  border-radius: 8px;
+}
+
+.quantityBox span {
+  padding: 2px 6px;
+  color: rgb(158, 158, 158);
+  font-size: 14px;
+}
+
+.quantityBox input {
+  width: 70px;
+  background-color: #fff;
+  border: 1px solid rgb(163, 163, 163);
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  text-align: center;
+}
+
+.addToCart button {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  margin-left: 10px;
+  padding: 5px 10px;
+  text-transform: uppercase;
+  width: 100px;
+  border-radius: 5px;
+  border: 1px solid #fee67c;
+  background: #fee67c;
+  background: linear-gradient(180deg, #fee67c 0, #f2cb76);
+}
+
+.addToCart button p {
+  margin-right: 10px;
+}
+
+.fa-shopping-basket {
+  color: rgb(112, 112, 112);
+}
+
+/* is Veg */
+
+.isVegIcon {
+  border: 1px solid #62a154;
+  width: 14px;
+  height: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.isVeg {
+  background-color: #62a154;
+  border-radius: 50%;
+  height: 0.6rem;
+  width: 0.6rem;
+  border: 1px solid #62a154;
 }

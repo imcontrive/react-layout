@@ -3,7 +3,7 @@
     {
       "name": "Oninon/Vulligadda/Ullipaya",
       "category": "Fresho",
-      "discountRate": "20%",
+      "discountRate": "20",
       "isVeg": true,
       "imageUrl": "http://www.allwhitebackground.com/images/2/2658.jpg",
       "pricePerKg": "30",
@@ -22,9 +22,9 @@
     {
       "name": "Tomato - Local",
       "category": "Fresho",
-      "discountRate": "20%",
+      "discountRate": "20",
       "isVeg": true,
-      "imageUrl": "http://www.maannews.com/Photos/504813C.jpg",
+      "imageUrl": "https://www.bigbasket.com/media/uploads/p/l/10000204_16-fresho-tomato-local.jpg",
       "pricePerKg": "60",
       "currencyFormat": "RS",
       "isFreeShipping": true,
@@ -41,9 +41,9 @@
     {
       "name": "Potato/Alugadda/Bangala Dumpa/aloo",
       "category": "Fresho",
-      "discountRate": "20%",
+      "discountRate": "20",
       "isVeg": true,
-      "imageUrl": "https://www.irishcentral.com/uploads/article/132980/cropped_raw-potatoes-GettyImages-932521144.jpg?t=1559072171",
+      "imageUrl": "https://www.bigbasket.com/media/uploads/p/l/40023476_4-fresho-potato-organically-grown.jpg",
       "pricePerKg": "24",
       "currencyFormat": "RS",
       "isFreeShipping": true,
@@ -60,34 +60,14 @@
     {
       "name": "Ladies Finger/Bendakaya",
       "category": "Fresho",
-      "discountRate": "20%",
+      "discountRate": "20",
       "isVeg": true,
       "isLocal": true,
-      "imageUrl": "http://www.allwhitebackground.com/images/2/2658.jpg",
+      "imageUrl": "https://www.bigbasket.com/media/uploads/p/l/10000142_16-fresho-ladies-finger.jpg",
       "pricePerKg": "30",
       "currencyFormat": "RS",
       "isFreeShipping": true,
       "id": "01",
-      "delivery": [
-        {
-          "isStandard": "Tommorow Evening",
-          "isExpress": "Out of stock"
-        }
-      ],
-      "quantity": ["500", "1000", "250"],
-      "quantityFormat": "gr"
-    },
-    {
-      "name": "Oninon/Vulligadda/Ullipaya",
-      "category": "Fresho",
-      "discountRate": "20%",
-      "isVeg": true,
-      "isLocal": true,
-      "imageUrl": "https://www.bigbasket.com/media/uploads/p/l/40023470_3-fresho-ladies-finger-organically-grown.jpg",
-      "pricePerKg": "25",
-      "currencyFormat": "RS",
-      "isFreeShipping": true,
-      "id": "04",
       "delivery": [
         {
           "isStandard": "Tommorow Evening",

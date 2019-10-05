@@ -1,19 +1,20 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
 
+import Product from "./Product";
+
 class Home extends Component {
   render() {
     const { products } = this.props.productsInfo;
-    console.log(products, "swedrftgyhjk");
     return (
       <div className="isWrapper">
-        {products
-          ? products.map((product, ind) => (
-              <div className="box" key={ind + 1}>
-                {product.name}
-              </div>
-            ))
-          : ""}
+        <div className="grid">
+          {products
+            ? products.map((product, ind) => (
+                <Product product={product} key={ind} />
+              ))
+            : ""}
+        </div>
       </div>
     );
   }
