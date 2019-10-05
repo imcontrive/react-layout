@@ -173,10 +173,6 @@ body {
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  /* padding: 10px; */
-  /* border-top: 0.5px solid lightgray;
-  border-bottom: 0.5px solid lightgray;
-  border-left: 0.5px solid lightgray; */
 }
 
 .grid {
@@ -423,4 +419,21 @@ body {
   height: 0.6rem;
   width: 0.6rem;
   border: 1px solid #62a154;
+}
+
+/* Media Query for mobile Screen */
+@media all and (max-width: 630px) {
+  .isWrapper {
+    max-width: 630px;
+    width: 100%;
+    position: relative;
+    left: 0;
+    top: 0;
+    transform: translate(-0%, -0%);
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
 }

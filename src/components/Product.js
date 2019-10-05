@@ -62,7 +62,6 @@ class Product extends Component {
       quantity,
       quantityFormat
     } = this.props.product;
-    // console.log(isVeg, "isVeg");
 
     const {
       selectedQuant,
