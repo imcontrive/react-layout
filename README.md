@@ -1,4 +1,4 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Click Here for [Demo](https://astralis.netlify.com/).
 
 ## Available Scripts
 
